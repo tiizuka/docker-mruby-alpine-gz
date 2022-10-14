@@ -16,7 +16,7 @@ RUN apk \
       -U \
       --no-cache \
     add \
-      allow-baselayout
+      alpine-baselayout
 
 RUN cp -p /usr/bin/mruby /alpine/usr/bin/mruby
 
